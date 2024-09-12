@@ -110,7 +110,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart sap:VirtualizedContainerService.HintSize="908.8,563.2" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart sap:VirtualizedContainerService.HintSize="600,648" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="ShouldStop" />
       </Flowchart.Variables>
@@ -134,7 +134,7 @@
             <av:PointCollection x:Key="ConnectorLocation">300.2,185.4 300.2,215</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:GetQueueItem ContinueOnError="{x:Null}" DisplayName="Get Transaction Item" FolderPath="TesteAutomacao" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="GetQueueItem_1" QueueType="ReportOportunitiesData" Reference="{x:Null}" TimeoutMS="{x:Null}" TransactionItem="[Opportunity]">
+        <ui:GetQueueItem ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Transaction Item" FolderPath="TesteAutomacao" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="GetQueueItem_1" QueueType="ReportOportunitiesData" TransactionItem="[Opportunity]">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -445,7 +445,7 @@
                             <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" ConnectionAccountName="{x:Null}" AttachmentInputMode="UseExisting" AttachmentPaths="{x:Null}" AuthScopesInvalid="False" Bcc="{x:Null}" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Ol&amp;#225;, Daniel, tudo bem?&lt;/SPAN&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;SPAN&gt;Acabo de concluir o processo de cadastro das oportunidades filtradas para os pa&amp;#237;ses Estados Unidos e Alemanha. &lt;/SPAN&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;SPAN&gt;Tenha um &amp;#243;timo dia,&lt;/SPAN&gt;&lt;BR/&gt;&lt;SPAN&gt;Rob&amp;#244;&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" Cc="{x:Null}" ConnectionId="beef0f1d-7727-4398-ad61-ccbde3a30aa2" ContinueOnError="{x:Null}" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="SendEmailConnections_1" Importance="Normal" InputType="HTML" ReplyTo="{x:Null}" SaveAsDraft="True" SingleAttachment="{x:Null}" Subject="Conclusão do processo de cadastro" TextBody="{x:Null}" To="[New String(){&quot;daniphilipi379@gmail.com&quot;}]" UseConnectionService="True">
+                        <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" AttachmentPaths="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ReplyTo="{x:Null}" SingleAttachment="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="UseExisting" AuthScopesInvalid="False" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;Ol&amp;#225;, Daniel, tudo bem?&lt;/SPAN&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;SPAN&gt;Acabo de concluir o processo de cadastro das oportunidades filtradas para os pa&amp;#237;ses Estados Unidos e Alemanha. &lt;/SPAN&gt;&lt;BR/&gt;&lt;BR/&gt;&lt;SPAN&gt;Tenha um &amp;#243;timo dia,&lt;/SPAN&gt;&lt;BR/&gt;&lt;SPAN&gt;Rob&amp;#244;&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" ConnectionId="beef0f1d-7727-4398-ad61-ccbde3a30aa2" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="SendEmailConnections_1" Importance="Normal" InputType="HTML" SaveAsDraft="True" Subject="Conclusão do processo de cadastro" To="[New String(){&quot;daniphilipi379@gmail.com&quot;}]" UseConnectionService="True">
                           <uga:SendEmailConnections.Attachments>
                             <InArgument x:TypeArguments="scg:IEnumerable(upr:IResource)" />
                           </uga:SendEmailConnections.Attachments>
